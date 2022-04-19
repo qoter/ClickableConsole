@@ -9,7 +9,15 @@
 
   <description>
 <![CDATA[
-<p>Plugin provides possibility to run command line commands via console links</p>
+<p>The plugin makes clickable special links in the built-in Rider terminal.</p>
+<p>For example, the next lines will be clickable in the console</p>
+<p>
+<pre>&lt;some link text here&gt; $(term) echo "You can use any command instead of the echo"</pre>
+<pre>&lt;some link text here&gt; $(rider) diff "full-path-to-left-file" "full-path-to-right file"</pre>
+</p>
+<p>Just click on &lt;some link text here&gt; to run command</p>
+<p><a href="https://github.com/qoter/ClickableConsole">See README.md on GitHub with more examples</a></p>
+
 ]]>
   </description>
 
